@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <script>
+     function f1()
+     {
+         var fnm,temp=true
+         
+{
+ temp=false
+ document.getElementById("s1").innerHTML="enter first name"
+}
+
+
+return temp
+     }
+            
+            
+ </script>
+ <style>
+ span
+ {
+     color:red;
+     font-weight: bold;
+ }
+ </style>
+    </head>
+    <body>
+        <form method="post">
+            <table border="1" align="center">
+                <tr>
+                    <td>First Name</td>
+                    <td>
+<input type="text" id="fnm">                        
+<span id="s1"></span>
+                    </td>
+                </tr>
+                <tr>
+<td colspan="2" align="center">
+    <input type="submit" value="create profile"
+           onclick="return f1()">                        
+ </td>                    
+                </tr>                
+            </table>
+        </form>
+    </body>
+</html>

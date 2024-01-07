@@ -1,0 +1,25 @@
+<script>
+    var n = parseInt(prompt("Enter the value"));
+    //var a,b;
+    var choose = parseInt(prompt("press 1 for Even or 0 for odd"));
+    if(choose==1)
+    {
+        for(let i=2;i<=n;i++)
+        {
+            if(i%2==0)
+            {
+                document.write(i+'</br>');
+            }
+        }
+    }
+    else if(choose==0)
+    {
+        for(let i=1;i<=n;i++)
+        {
+            if(i%2!=0)
+            {
+                document.write(i+"</br>");
+            }
+        }
+    }
+</script>

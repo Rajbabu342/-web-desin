@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+       <img src="image23.jpg" alt="img" width="40px" 
+       height="40px" id="main"/><br><br>
+      
+       <button onclick="img(1)">+</button>
+       <button onclick="img(2)">-</button>
+    </body>
+
+    <script>
+ function img(x)
+ {
+ var imageobject=
+ document.getElementById("main");
+ if(x==1)
+ {
+    
+ imageobject.width+= 120;
+ imageobject.height+= 120;
+ }
+if(x==2)
+{
+ imageobject.width-= 120;
+ imageobject.height-= 120;
+}
+ }
+    </script>
+
+</html>

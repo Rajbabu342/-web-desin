@@ -1,0 +1,27 @@
+<script>
+    var x=new Array(5)
+    for(i=0;i<10;i++)
+    {
+        x[i]=parseInt(prompt("value"));
+    }
+    var n=parseInt(prompt("n="));
+
+    var tmp =0;
+    //logic to seach value (n) in an array with its pasition
+    for(var i=0;i<x.length;i++)
+    {
+        if (n=x[i])
+    {
+//here tmp wil +1 if value found
+tmp =tmp+1;
+//here i will show the pos df value 
+document.write("<h1>pos="+(i+1)+"</h1>");
+    }
+}
+if (tmp!=0)
+{
+    document.write("<h1>"+n+"value found"+tmp+"time</h1>");
+}else{
+    document.write("<h1>value not found<h1>");
+}
+</script>

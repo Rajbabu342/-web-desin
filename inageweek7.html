@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image click text Display</title>
+</head>
+<body>
+    <img src="image.jpg" width=" 360px" height="300px" value="image1" onclick="textToDisplay('image 1')">
+    <img src="image23.jpg" width=" 360px" height="300px" value="image1" onclick="textToDisplay('image 2')">
+    <img src="download (2).jpg" width=" 360px" height="300px" value="image1" onclick="textToDisplay('image 3')">
+    <br>
+    <from>
+        <textarea id="text" autofocus></textarea>
+    </from>
+    <script>
+        function textToDisplay(x){
+            var textarea=document.getElementById("text" );
+            textarea.value=x;
+        }
+    </script>
+</body>
+
+</html>

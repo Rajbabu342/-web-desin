@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Red Bus </title>
+    <style>
+        #Maindiv
+        {
+           margin: auto;
+           width: 1200px;
+        }
+        #header1
+        {
+          background: rgb(245, 237, 237);
+          height: 35px;
+          border: auto;
+        }
+        #header1 a{
+            margin-right: 20px;
+            font-size: 18px;
+            font-weight: 100;
+            color: black;
+            text-decoration: none;
+           margin-top: 15px;
+        }
+        #header2
+        {
+          /*  background: aqua;*/
+            
+            height: 110px;
+        }
+        #header2 img
+        {
+            
+            margin-top: 15px;
+            margin-left: 20px;
+            
+             
+        }
+        #abc
+        {  position: absolute;
+            top: 80px;
+            margin-left: 90px;
+            color: black;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+        #xyz
+        {  position: absolute;
+            top: 80px;
+            margin-left: 190px;
+            color: rgb(255, 38, 38);
+            font-weight: bolder;
+            font-size: 20px;
+        }
+        #content1
+        {
+            float:left;
+            width: 60%;
+            height: 400px;
+           /* background: aquamarine;*/
+        }
+        #p1
+        {  position: absolute;
+            font-size:25px;
+            color: rgb(41, 39, 39);
+            margin-left: 90px; 
+           
+        }
+       
+        #content2
+        { 
+            width:40%;
+           /* background: rgb(245, 255, 192);*/
+            height: 400px;
+            float: right;
+           
+
+       
+
+        }
+        #content4
+        {
+            margin-left: 120px;
+            margin-top: 60px;
+            float:left;
+            width: 30%;
+           /* background: blueviolet;*/
+            height:200px;
+        }
+        #content5
+        {
+            position: absolute;
+            margin-left: 450px;
+             top: 227px;
+            float: right;
+            width: 30%;
+           /* background: plum;*/
+        }
+        #input
+        {
+            background: Red;
+            font-size: large;
+            color: white;
+            border-color: white;
+            margin-left: 71%;
+            width: 150px;
+            height: 40px;
+        }
+    
+        #f1
+        {
+            float:left;
+            width:33%;
+           
+            height: 160px;
+        }
+         
+        #logo1
+        {
+            margin-left: 45px;
+            margin-top: 25px;
+              
+        } 
+        
+        #f2
+        {
+          float:left;
+          width: 33%;
+        
+          
+          height: 160px;
+
+        }
+        #logo2
+        {
+            margin-left: 60px;
+            margin-top: 25px;
+        } 
+         
+       
+        #f3
+        {
+            float: left;
+            width: 34%;
+           
+            height: 160px;
+        }
+        #logo3
+        {
+            margin-left: 45px;
+            margin-top: 25px;
+        }  
+        #marquee
+        {   
+           background: rgb(167, 194, 123);
+        }
+        
+        #footer1
+        {   
+            background: wheat;
+            height: 30px;
+        }
+        header1:hover
+      {
+          background: aqua;
+          font-style: italic;
+      }
+    </style>
+</head>
+<body>
+    <form method="post" action="successredbus.html"></form>
+    <div id="Maindiv">
+        <div id="header1">
+            <a href="#"  style="margin-left: 20px;">Home </a>
+            <a href="#">print/SMS Ticket</a>
+            <a href="#">cancle Ticket</a>
+            <a href="#">Check Refund statement</a>
+            <a href="#"  style="margin-left: 80px;">Need help? call</a>
+            <a href="#" > 
+                City:<select>
+                    <option><b>indore:750926366</b></option>
+                    <option><b>ujjain:8305426458</b></option>
+                    <option><b>Bhopal:07258-49782</b></option>
+                    <option><b>Dewas:7509263666</b></option>
+                  </select>
+        </a>
+        <a href="#" style="color: cornflowerblue; margin-left: 20px;" >Sign in</a>
+        (Optional)
+        </div>
+        <div id="header2">
+            <img src="download.png">
+            <span id="abc">BUSES</span>
+            <span id="xyz">HOTELS</span>
+            <img src="images.png" style="margin-left: 400px; top: 30px;position: absolute;">
+        </div>
+        
+        <div id="content1">
+          <p id="p1">Book Bus Ticket Online With Zero Booking fees </p>
+             <br style="clear:both">
+            <div id="content4">
+             From*<br>
+             <select style= " width: 200px;height: 23px;" required>
+                <option>Enter</option> <option>indore</option>
+                <option>Ujjain</option>
+                <option>Bhopal</option>
+                <option>Dewas</option>
+                <option>Pune</option>
+                <option>Mumbai</option>
+                <option>Delhi</option>
+                <option>Agra</option>
+                <option>Chennai</option>
+                <option>Bengluru</option>
+                <option>Vellore</option>
+                <option>Nellore</option>
+                <option>Chandigrah</option>
+                <option>Guna</option>
+              </select>
+              <br><br><br><br>
+              Date of journey*<br>
+                 <input type="date" placeholder="m/d/y" required style= "width: 200px;height: 20px;">
+            </div>
+            <br style="clear:both">
+     <div id="content5" >
+            To*<br>
+              <select style= " width: 200px;height: 23px; " required >
+                <option>Enter</option>
+                <option>indore</option>
+                <option>Ujjain</option>
+                <option>Bhopal</option>
+                <option>Dewas</option>
+                <option>Pune</option>
+                <option>Mumbai</option>
+                <option>Delhi</option>
+                <option>Agra</option>
+                <option>Chennai</option>
+                <option>Bengluru</option>
+                <option>Vellore</option>
+                <option>Nellore</option>
+                <option>Chandigrah</option>
+                <option>Guna</option>
+              </select>
+              <br><br><br><br>
+             Date of Return(Optional)<br>
+              <input type="date" placeholder="m/d/y" required style= "width: 200px;height: 20px;">
+            </div>
+            <input type="submit" value ="Search Buses" id="input" >
+        </div>
+        <div id="content2">
+            <img src="download (2).jpg" style="margin-top: 25px; margin-left: 130px; ">
+        </div>
+
+         
+            <div id="f1">
+                <img src="RedBus_LP.png" height="120" width="160" id="logo1">
+            </div>
+          
+         
+            <div id="f2">
+             <img src="50-OFF-RED-BUS.png" height="120" width="160" id="logo2">
+           </div>
+        
+        
+          <div id="f3">
+           <img src="10615-Redbus-Offers-Coupons-2.jpg"  height="120" width="160" id="logo3"> </div>
+            
+           <marquee  direction="right" behavior="scroll" scrollamount="10" id="marquee"  onmouseover="stop()"
+           onmouseout="start()">
+            <img src="rajasingh.jpg">
+           </marquee>
+           
+           <br style="clear:both">
+        
+         <div id="footer1" align="center">
+           Copyright&copy; by Red Buses Private Limited. Designed By JD 2023
+
+         </div>
+    </div>
+</body>
+</html>

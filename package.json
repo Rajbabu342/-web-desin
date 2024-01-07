@@ -1,0 +1,21 @@
+{
+  "name": "raja",
+  "version": "1.0.0",
+  "main": "code.jquery.com_jquery-3.7.1.min.js",
+  "scripts": {
+    "test": "yes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "12"
+  },
+  "keywords": [
+    "12345"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "description": ""
+}

@@ -1,0 +1,58 @@
+<script>
+   var x=[
+    [1,5],
+    [5,8],
+
+    [8,7],
+    [5,3],
+   ];
+
+   var x2=[
+    [1,5],
+    [5,8],
+
+    [8,7],
+    [5,3],
+   ];
+document.write("***x**<br>");
+  var i,j;
+  for(i=0;i<2;i++)
+  {
+    for(j=0;j<2;j++)
+    {
+        document.write(x[i][j]+"&nbsp;&nbsp;&nbsp;");
+    }
+    
+    document.write("<br>");
+  }
+
+  document.write("*** x2**<br>");
+
+  for(i=0;i<2;i++)
+  {
+    for(j=0;j<2;j++)
+    {
+        document.write(x2[i][j]+"&nbsp;&nbsp;&nbsp;"); 
+    }
+    document.write("<br>");
+  }
+  var x3=[[],[]];
+  for(i=0;i<2;i++)
+  {
+    for(j=0;j<2;j++)
+    {
+        x3[i][j]=x[i][j]+x2[i][j];
+    }
+    
+}
+document.write("** explain to the maltipication**<br>");
+
+for(i=0;i<2;i++)
+  {
+    for(j=0;j<2;j++)
+    {
+        document.write(x3[i][j]+"&nbsp;&nbsp;&nbsp;"); 
+    }
+    document.write("<br>");
+  }
+</script>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <img src="images.png" id="slideImage">
+    </div>
+    <script>
+        function first(){
+            document.getElementById("slideImage").src="image23.jpg";
+  
+        }
+        function second(){
+            document.getElementById("slideImage").src="image.jpg";
+  
+        }
+        function third(){
+            document.getElementById("slideImage").src="10615-Redbus-Offers-Coupons-2.jpg";
+  
+        }
+        setInterval(first,2000);
+        setInterval(second,4000);
+        setInterval(third,6000);
+    </script>
+</body>
+</html>

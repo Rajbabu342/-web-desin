@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     function addition(a,b,callback){
+        if(a>0 && b>0){
+            var result = a+b;
+            document.write('<br>addition:'+result );
+            callback(null ,result);
+
+        }
+        else 
+        callback(new Error("Nagative Number error"),null);
+     }
+     var x =prompt("Enter 1st number")*1;
+    var y = prompt("Enter 2st Number")*1;
+
+       addition (x,y,function(err,result){
+        if(err){
+            document.write('<br>'+err);
+        }
+        else{
+            result %2? document.write('<br> odd  </br>')
+            :document.write('<br> even </br>')
+        }
+       });
+     
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>for userid</title>
+    
+    
+        <script langauge="javascript">
+         function validate(){
+            var user=document.f1.username.value;
+            var pass=document.f1.pass.value;
+         
+        
+         
+         
+         
+         
+             if(user==""||user.length<9 ){
+            alert("please input a valid username");
+        return false;
+            }
+    
+        if(pass==""||pass.length<9)
+            alert("please input a valid password");
+            alpha=[a-zA-Z];
+         
+         
+        
+
+         }
+        </script>
+        </head>
+    </body>
+       <form name="f1" action="" onsubmit="validate();">
+        <center>
+            <h2>login form vlidation using javascript</h2>
+            username : <input type="text" name="username" value=""><br>
+            password : <input type="password" name="pass" value=""><br>
+            <input type="submit" name="submit" value="login"><br>
+        </center>
+        </from>
+    </body>
+</html>

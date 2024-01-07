@@ -1,0 +1,32 @@
+<script>
+    var matrix=[
+          [10,20,30],
+          [50,80,90],
+          [60,788,55],
+];
+
+    var i,j;
+
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+          document.write(matrix [i][j]+"&nbsp;&nbsp;");
+        }
+        document.write("<br>");
+    }
+    var bigast=matrix[0][0];
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+          if (matrix[i][j]>bigast)
+          {
+            bigast=matrix[i][j];
+          }
+        }
+    }
+        document.write("the bigest number of array="+bigast);
+    
+
+</script>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ice Cream Flavor Picker</title>
+</head>
+<body>
+  <h1>Ice Cream Flavor Picker</h1>
+  <label for="flavorSelect">Select an ice cream flavor:</label>
+  <select id="flavorSelect">
+    <option value="vanilla">Vanilla</option>
+    <option value="chocolate">Chocolate</option>
+    <option value="strawberry">Strawberry</option>
+    <option value="mint">Mint Chocolate Chip</option>
+    <option value="cookie">Cookies and Cream</option>
+  </select>
+  <br>
+  <input type="text" id="flavorDisplay" readonly>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const flavorSelect = document.getElementById('flavorSelect');
+      const flavorDisplay = document.getElementById('flavorDisplay');
+
+      flavorSelect.addEventListener('change', function() {
+        const selectedFlavor = flavorSelect.options[flavorSelect.selectedIndex].text;
+        flavorDisplay.value = `You picked ${selectedFlavor}.`;
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<script>
+    var a=parseInt(prompt("Enter the value"));
+    for(let i=0;i<=a;i++)
+    {
+        for(let k =1;k<=a-i;k++)
+        {
+            document.write('&nbsp;&nbsp;');
+
+        }
+        var p=i-1;
+        for(let j=1;j<=2*i-1;j++)
+
+    {
+    if(j<=i)
+    {
+        document.write(String.fromCharCode(64+j)+('&nbsp'));
+    }
+    if(j>i)
+    {
+        document.write(String.fromCharCode(96+p)+('&nbsp'));
+        p--;
+    }
+    }
+    document.write("</br>");
+    }
+</script>
